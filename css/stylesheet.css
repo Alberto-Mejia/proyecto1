@@ -1,6 +1,7 @@
 header {
   overflow: hidden;
-  padding: 0.4em; }
+  padding: 0.4em;
+  border-bottom: 2px gray solid; }
   header figure {
     float: left;
     margin-left: 1em; }
@@ -14,6 +15,7 @@ header input {
   margin-right: 1em; }
 
 nav {
+  display: none;
   position: relative; }
   nav ul {
     list-style: none;
@@ -25,8 +27,29 @@ nav {
       text-align: center; }
       nav ul li a {
         background: gray;
+        border-radius: 5px;
         color: white;
+        display: inline-block;
+        text-align: center;
         text-decoration: none;
-        padding: 0.2em 0.5em; }
+        padding: 0.1em;
+        width: 150px; }
+
+.formulario {
+  padding: 1em;
+  text-align: right; }
+
+.formulario input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.2em 0.6em; }
+
+.formulario input[type="submit"] {
+  background: #22BCE0;
+  border-color: #22BCE0;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
+  font-style: italic;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
+  color: white; }
 
 /*# sourceMappingURL=stylesheet.css.map */
